@@ -1,0 +1,1288 @@
+﻿
+Y10= { 
+	color = { 128 0 128 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german } 
+	capital = STATE_SCHLESWIG_HOLSTEIN
+}
+
+
+Y09= { 
+	color = { 255 128 0 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german } 
+	capital = STATE_RHINELAND
+}
+
+
+Y08= { 
+	color = { 210 28 133 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german } 
+	capital = STATE_RHINELAND
+}
+
+
+Y07= { 
+	color = { 235 2 20 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german } 
+	capital = STATE_SAXONY
+}
+
+
+Y06= { 
+	color = { 0 128 192 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german } 
+	capital = STATE_SAXONY
+}
+
+
+Y05= { 
+	color = { 187 255 119 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german } 
+	capital = STATE_SAXONY
+}
+
+
+Y04= { 
+	color = { 70 134 251 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german } 
+	capital = STATE_SAXONY
+}
+
+
+Y03= { 
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { bedouin } 
+	capital = STATE_HAIL
+}
+
+
+Y02= { 
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { patagonian } 
+	capital = STATE_PATAGONIA
+}
+
+
+Y01= { 
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { cree } 
+	capital = STATE_ONTARIO
+}
+
+
+CEE= { 
+	color = { 250 249 245 }
+	
+	country_type = unrecognized #
+
+	tier = kingdom
+	
+	cultures = { cree } 
+	capital = STATE_QUEBEC
+}
+
+
+NAP = {
+	color = { 103 17 86 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { south_italian }
+	capital = STATE_CAMPANIA
+}
+SPN = {
+
+	color = { 131  141  142 }
+
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { spanish }
+	capital = STATE_TOLEDO
+}
+
+CAU = {
+	color = { 97  98  195 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { georgian }
+	religion = orthodox
+	capital = STATE_GREATER_CAUCASUS
+}
+
+SVA = {
+	color = { 56 143 53 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { georgian }
+	religion = orthodox
+	capital = STATE_GREATER_CAUCASUS
+}
+
+MIN = {
+	color = { 83 65 167 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { georgian }
+	religion = orthodox
+	capital = STATE_GREATER_CAUCASUS
+}
+
+ABK = {
+	color = { 100 150 20 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { georgian }
+	religion = orthodox
+	capital = STATE_GREATER_CAUCASUS
+}
+
+
+######################################################################################## 
+
+XXA = {
+	color = { 112  150  105 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { uzbek tajik }
+	capital = STATE_TAJIKISTAN
+}
+
+XXZ = {
+	color = { 38  173 52 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { uzbek tajik kirgiz }
+	capital = STATE_EASTERN_AFGHANISTAN
+}
+XXE = {
+	color = hsv360{ 20  80  80 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { uzbek tajik kirgiz }
+	capital = STATE_TAJIKISTAN
+}
+XXR = {
+	color = { 28 82 148 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { uzbek tajik kirgiz }
+	capital = STATE_TAJIKISTAN
+}
+XXT = {
+	color = { 180 99 150 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { pashtun }
+	capital = STATE_TAJIKISTAN
+}
+XXY = {
+	color = { 135 0 4 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { pashtun tajik hazara }
+	capital = STATE_WESTERN_AFGHANISTAN
+}
+XXU = {
+	color = { 0 30 39 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { pashtun tajik hazara }
+	capital = STATE_WESTERN_AFGHANISTAN
+}
+XXI = {
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	capital = STATE_BOTSWANA
+	cultures = { russian }
+}
+XXO = {
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	capital = STATE_ZAMBIA
+	cultures = { russian }
+}
+XXP = {
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = kingdom
+	
+	capital = STATE_ZAMBEZI
+	cultures = { russian }
+}
+
+XXQ = {
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	capital = STATE_ZAMBEZI
+	cultures = { russian }
+}
+ 
+########################################################################################
+
+TXA = {
+	color = { 112  150  105 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_LEINSTER
+} 
+TXZ = {
+	color = { 38  173 52 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+} 
+TXE = {
+	color = { 28 82 148 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+} 
+TXR = {
+	color = { 199  175  12 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+} 
+TXT = {
+	color = { 180 99 58 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+} 
+TXY = {
+	color = { 135 0 4 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+TXU = {
+	color = { 0 30 39 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+TXI = {
+	color = rgb { 209 151 0 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+TXO = {
+	color = { 179 90 18 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+TXP = {
+	color = { 15 84 200 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+TXQ = {
+	color = { 15 84 150 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_ANHALT
+} 
+TXS = {
+	color = { 80 84 200 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_ANHALT
+} 
+TXD = {
+	color = { 15 150 200 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_ANHALT
+}
+
+
+ISB = {
+	color = rgb { 45 100 0 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+BEG = {
+	color = { 150 30 50 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { north_german }
+	capital = STATE_WESTPHALIA
+}
+
+HES = {
+	color = { 250  250  250 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { north_german }
+	capital = STATE_HESSE
+	is_named_from_capital = yes
+}
+FRM = {
+	color = { 255  255  0 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { north_german }
+	capital = STATE_HESSE
+}
+ 
+
+WLD = {
+	color = { 169  194  107 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_FRANCONIA
+}
+
+WUR = {
+	color = { 35 52 48 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { south_german }
+	religion = protestant	
+	capital = STATE_WURTTEMBERG
+	is_named_from_capital = yes
+}
+
+BAD = {
+	color = { 80 80 100 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { south_german }
+	capital = STATE_BADEN
+	is_named_from_capital = yes
+}
+
+LIP = {
+	color = { 220  89  77 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_WESTPHALIA
+}
+
+MTU = {
+	color = { 250 249 245 }
+	country_type = decentralized
+	
+	tier = principality
+	cultures = { north_german }
+	capital = STATE_ANHALT
+}
+
+ITU = {
+	color = { 250 249 245 }
+	country_type = decentralized
+	
+	tier = principality
+	cultures = { north_german }
+	capital = STATE_ANHALT
+}
+
+RIP = {
+	color = { 250 249 245 }
+	country_type = decentralized
+	
+	tier = principality
+	cultures = { north_german }
+	capital = STATE_ANHALT
+}
+SHR = {
+	color = { 250 249 245 }
+	country_type = decentralized
+	
+	tier = principality
+
+	capital = STATE_EAST_SAHARA
+	cultures = { north_german }
+}
+CAD = {
+	color = { 250 249 245 }	
+	country_type = decentralized
+	
+	tier = principality
+	capital = STATE_AKTOBE
+	cultures = { north_german }
+}
+
+ASD = {
+	color = { 250 249 245 }	
+	country_type = decentralized
+	
+	tier = principality
+	capital = STATE_AKTOBE
+	cultures = { north_german }
+}
+#Northwest-Territories - North-Western Territory
+
+NWT = {
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_ALASKA
+}
+RAC = {
+	color = { 231  220  240 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_ALASKA
+}
+
+
+ZWA = { # Zouaoua
+	color = { 60 105 126 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { berber }
+	
+	capital = STATE_CONSTANTINE
+}
+
+CAO = { # Chaoui
+	color = { 121 145 171 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { berber }
+	
+	capital = STATE_CONSTANTINE
+}
+
+ONL = { # Ouled Naïl
+	color = { 26 51 71 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { berber }
+	
+	capital = STATE_GHARDAIA
+}
+
+AJB = { # Aït Jubar
+	color = { 82 113 128 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { berber }
+	
+	capital = STATE_GHARDAIA
+}
+
+OSC = { # Ouled Sidi Cheikh
+	color = { 191 158 88 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { berber }
+	
+	capital = STATE_SAHARA
+}
+ 
+
+OGL = { # Ouargla
+	color = { 153 109 157 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { berber }
+	
+	capital = STATE_EAST_SAHARA
+}
+
+ZJR = { # Kel Azjer
+	color = { 117 107 86 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tuareg }
+	
+	capital = STATE_EAST_SAHARA
+}
+
+DMN = { # Doui-Menia
+	color = { 75 88 134 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { berber }
+	
+	capital = STATE_SAHARA
+}
+
+TJK = { # Tajakant
+	color = { 60 149 137 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { berber }
+	
+	capital = STATE_SAHARA
+}
+
+TZR = { # Tanezrouft
+	color = { 172 156 130 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tuareg berber }
+	
+	capital = STATE_SAHARA
+}
+
+RYU = {
+	color = { 137 106 217 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { ryukyan }
+	
+	capital = STATE_RYUKYU_ISLANDS
+}
+
+AIN = { # Ainu Mosir
+	color = { 201 197 124 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { ainu }
+	
+	capital = STATE_HOKKAIDO
+}
+
+QIN = { #Qinghai
+	color = { 56 143 53 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { han }
+	religion = mahayana
+	capital = STATE_QINGHAI
+}
+
+#Outer Mongolia
+OMG = {
+	color = { 83 65 0 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { mongol }
+	religion = gelugpa
+	capital = STATE_URGA
+}
+ 
+
+#Inner Mongolia
+IMG = {
+	color = { 83 65 167 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { mongol }
+	religion = gelugpa
+	capital = STATE_HINGGAN
+}
+
+KID = { #Kalahari Desert
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	capital = STATE_NAMAQUALAND
+	cultures = { russian }
+}
+
+CGB = { #Congo Basin
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	capital = STATE_EAST_ANGOLA
+	cultures = { russian }
+}
+
+
+#Hohenzollern-Hechingen
+
+HHN = {
+	color = rgb { 83 49 83 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_WURTTEMBERG
+}
+
+# Saxe-Altenburg
+
+ALN = {
+	color = rgb { 200 220 135 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+
+# Saxe-Lauenburg
+
+LAU = {
+	color = rgb { 255 0 0 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SCHLESWIG_HOLSTEIN
+}
+
+# Reuss-Gera
+
+GRA = {
+	color = rgb { 250 230 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+
+# Reuss-Greiz
+
+GRZ = {
+	color = rgb { 230 180 20 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+
+#Schwarzburg-Sondershausen
+
+SND = {
+	color = rgb { 45 100 165 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+}
+
+
+
+
+
+
+SOM = {
+	color = { 255  182  193 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+SOL = {
+	color = { 48  25  52 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+TAJ = {
+	color = { 127 23 52 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+
+	cultures = { tajik }
+	capital = STATE_TAJIKISTAN
+}
+
+STN = {
+	color = { 180  158  127 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { hausa fulbe }
+	capital = STATE_HAUSALAND
+}
+SST = {
+	color = { 41  89  174 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { british bornean }
+	capital = STATE_MALAYA
+}
+FMS = {
+	color = { 165  151  80 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	capital = STATE_MALAYA
+	cultures = { malay }
+} 
+UMS = {
+	color = { 165  0  80 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	capital = STATE_MALAYA
+	cultures = { malay }
+}
+
+PNG = {
+	color = { 81 97 170 }
+
+	country_type = colonial #unrecognized
+
+	tier = principality
+
+	cultures = { melanesian }
+	capital = STATE_EASTERN_NEW_GUINEA
+}
+BOW = {
+	color = { 117 170 219 }
+
+	country_type = colonial #unrecognized
+
+	tier = principality
+
+	cultures = { tswana }
+	capital = STATE_BOTSWANA
+}
+SEY = {
+	color = { 52  33  1 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { maghrebi }
+	capital = STATE_LIBYAN_DESERT
+}
+MM01 = {
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { maghrebi }
+	capital = STATE_NEJD
+} 
+ 
+ITC = {
+	color = { 75 179 27}
+	country_type = colonial #unrecognized
+	tier = kingdom
+	cultures = { north_italian south_italian }
+	capital = STATE_LIBYA
+} 
+ 
+COG = {
+	color = { 225  198  153 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { french	 }
+	capital = STATE_CONGO
+} 
+SOH = {
+	color = { 100 97 25 }
+	
+	country_type = colonial #unrecognized
+	
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+} 
+
+CCN = {
+	color = "azure"
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { manchu han } 
+}
+CCI = {
+	color = { 25 0 0 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { manchu han } 
+	capital = STATE_SHANXI
+}
+MUA = {
+	color = { 255  254  124 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { manchu }
+	capital = STATE_HINGGAN
+} 
+
+SRW = {
+	color = { 218 165 32 }
+	
+	country_type = colonial #unrecognized
+	
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_NORTH_BORNEO
+}
+SMN = {
+	color = { 81 224 224 }
+	
+	country_type = unrecognized
+
+	tier = city_state
+	
+	cultures = { north_italian }
+	capital = STATE_ROMAGNA
+}
+MOO = {
+	color = { 128 0 0 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { french }
+	capital = STATE_PROVENCE
+} 
+LIE = {
+	color = { 25 28 183 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { north_german south_german }
+	capital = STATE_LOMBARDY
+} 
+NRB = {
+	color = { 41  89  174 }
+	
+	country_type = colonial #unrecognized
+	
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_NORTH_BORNEO
+}
+
+AED = {
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_NEJD
+}
+
+PPN = {
+	color = { 81 97 170 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { melanesian }
+	capital = STATE_EASTERN_NEW_GUINEA
+}
+BLZ = {
+	color = { 48 25 52 }
+	
+	country_type = colonial #recognized
+	
+	tier = principality
+
+	cultures = { british central_american }
+	capital = STATE_GUATEMALA
+} 
+KUW = {
+	color = { 135 206 235 }
+	
+	country_type = colonial #recognized
+	
+	tier = principality
+
+	cultures = { mashriqi }
+	capital = STATE_TAJIKISTAN
+} 
+NAI = {
+	color = { 253  217  181 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { british boer }
+	capital = STATE_NAMAQUALAND
+}
+ERI = {
+	color = { 37  68  133 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { north_italian south_italian }
+	capital = STATE_ERITREA
+} 
+TOG = {
+	color = { 87  8  97 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german south_german }
+	capital = STATE_TOGO
+}
+KEN = {
+	color = { 124  13  14 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { british }
+	capital = STATE_KENYA
+}
+MOZ = {
+	color = { 134  194  156 }
+	
+	country_type = colonial #unrecognized
+
+	tier = colonial
+	
+	cultures = { portuguese }
+	capital = STATE_MOCAMBIQUE
+}
+ANG = {
+	color = { 255  165  8 }
+	
+	country_type = colonial #unrecognized
+
+	tier = colonial
+	
+	cultures = { portuguese }
+	capital = STATE_NORTH_ANGOLA
+} 
+TCO = {
+	color = { 1  50  32 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality #colonial
+	
+	cultures = { flemish wallonian }	
+	capital = STATE_BAS_CONGO
+}
+UGA = {
+	color = { 209  240  192 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { british }
+	capital = STATE_UGANDA
+}
+CMU = {
+	color = { 101  67  33 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german south_german }
+	capital = STATE_SOUTH_CAMEROON
+} 
+TAN = {
+	color = { 2  204  255 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german south_german }
+	capital = STATE_ZANZIBAR
+} 
+MWI = {
+	color = { 48  25  52 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { british }
+	capital = STATE_KAZEMBE
+}
+ZAM = {
+	color = { 177  234  232 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { british }
+	capital = STATE_ZAMBIA
+}
+GAB = {
+	color = { 172  125  12 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { fang }
+	capital = STATE_GABON
+}
+
+ADR = {
+	color = { 184 56 10 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { catalan }
+	capital = STATE_ANDORRA
+}

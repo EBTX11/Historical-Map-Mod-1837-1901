@@ -1,0 +1,10 @@
+﻿l_english: 
+  rule_historical_map_mod:0 "Historical Map Mod" 
+
+  setting_historical_map_mod_enabled:0 "Enable historical country names"
+  setting_historical_map_mod_disabled:0 "Disable historical country names"
+  
+  setting_historical_map_mod_enabled_desc:0 "Enable historical country names like "Free and Hanseatic City of Lübeck" instead of "Lübeck" "
+  setting_historical_map_mod_disabled_desc:0 "Disable historical country names"
+
+

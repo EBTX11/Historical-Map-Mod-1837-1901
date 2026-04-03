@@ -1,0 +1,10 @@
+historical_map_mod = {
+	default = historical_map_mod_enable 
+ 
+	historical_map_mod_enabled = {
+ 	}
+ 
+	historical_map_mod_disabled = {
+ 	}
+	 
+}

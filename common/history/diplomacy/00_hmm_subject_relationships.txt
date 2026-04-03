@@ -1,0 +1,42 @@
+﻿DIPLOMACY = {
+	 
+	c:RUS ?= {
+		create_diplomatic_pact = {
+			country = c:POL
+			type = puppet
+		} 
+	}
+	
+	c:AUS ?= {
+		create_diplomatic_pact = {
+			country = c:LOM
+			type = puppet
+		} 
+	}
+
+	c:CHI ?= {
+		create_diplomatic_pact = {
+			country = c:OMG
+			type = vassal
+		} 
+		create_diplomatic_pact = {
+			country = c:IMG
+			type = vassal
+		} 
+		create_diplomatic_pact = {
+			country = c:QIN
+			type = vassal
+		} 
+		create_diplomatic_pact = {
+			country = c:XIN
+			type = vassal
+		}  
+	}  
+
+	c:POL ?= {
+		add_liberty_desire = 100
+	} 
+	c:LOM ?= {
+		add_liberty_desire = 100
+	} 
+} 

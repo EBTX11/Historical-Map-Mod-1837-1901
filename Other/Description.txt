@@ -1,0 +1,132 @@
+[h1][u]For Maps Mod as base mod [/u][/h1]
+[img]https://i.imgur.com/1mDRogC.png[/img]
+This mod is part of a set of different map mods. Other Map Mods :
+
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3022554665]Mod 1804 - 1814: Napoleonic Wars
+[/url]
+- Map Mod 1815 – 1848 : Congress Europe > Not for now
+- Map Mod 1837 – 1901 : Victorian Era > Not for now
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2881362957]Map Mod 1871 – 1914: Belle Époque[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2987759441]Map Mod 1922 – 1939: Interwar period[/url]
+
+[img]https://i.imgur.com/DCDufFL.png[/img]
+
+These mods are not only a modification of the map indeed, I had different desires in the development of these mods:
+[list]
+[*]Instead of making a map over a specific year, I preferred to take a period of 10 to 25 years and present the countries, colonies, protectora, subjects, etc. that existed over the period.
+[*]All mods aim to be very detailed (ex: Confederation of the Rhine or Small colonies like Montserrat, barbados, …).
+[/list]
+
+[img]https://i.imgur.com/NfmRt3C.png[/img]
+[h1][u]Extensive content for each periods explored:[/u][/h1]
+[list]
+[*]Creation of 30+ new historical countries.
+[/list]
+[img]https://i.imgur.com/QD4EBsm.png[/img]
+[img]https://i.imgur.com/1e1Cfj8.png[/img]
+[img]https://i.imgur.com/xBPHlVy.png[/img]
+[list]
+[*]Creation of 50+ new flags: colonial flags, dynastic flags, historical accuret flags or significant flags for the period (ex: Imperial flag of Japan, Austro-Hungarian flag…).
+[*]Creation of 50+ new name and dynamic name for more accuracy (ex: Viceroyalty of New Spain, Principality of Lucca and Piombino, Duchy of Saxe-Hildburghausen, Provisional Government of ROC, Livonia, German East Africa)
+[*]Upgrading of populations according to era only for the main power, I will certainly refine over time (eg. for the mod map 1871 - 1914: USA: 90M, Russia 170M based on 1900 demography).
+[*]Upgrading of the political regime of the period (ex: Imperial Russia = Autocratic monarchy, etc.)
+[/list]
+[img]https://i.imgur.com/1UdK6uo.png[/img]
+[list]
+[*]Upgrade of diplomatic relations, alliance games (Axis, Triple Alliance,...), affinities between countries, claimed lands,Continental Blockade ...
+[*]Modification of the painting of the map and addition of the tracing of mountains and rivers even for people who do not have the DLC.
+[/list]
+[img]https://i.imgur.com/RSuwL1Y.png[/img]
+[list]
+[*]Accurate characters (For now only for Mod 1804 - 1814: Napoleonic Wars): Bonapart Dynasty in Europe and other Ruler.
+[/list]
+
+[img]https://i.imgur.com/gTJpuOH.png[/img]
+[h1][u]Diplomatic Interaction:[/u][/h1]
+
+Re-worked subject types, created several new subject types:
+[list]
+[img]https://i.imgur.com/Hq94B9b.png[/img]
+[*][b]Colony[/b]: like puppet but can't developed an heavy industry sector and have an AI strategy of raw material overproduction.
+[img]https://i.imgur.com/qKJbD22.png[/img]
+[*][b]Chartered company[/b] (ex: east india company, Dutch West India Company, Hudson's Bay Company, Russian-American Company, Mozambique Company, Niassa Compan)
+[img]https://i.imgur.com/tz0H5Cg.png[/img]
+[*][b]Napoleonian personal union[/b] (ex: Kingdom of Italy 1805–1814)
+[img]https://i.imgur.com/pXEAM9T.png[/img]
+[*][b]French client state[/b] (ex: )
+[img]https://i.imgur.com/dUveIiw.png[/img]
+[*][b]Federation/Confederation[/b] (ex: USSR, Confederation of the Rhine)
+[img]https://i.imgur.com/J08kPPK.png[/img]
+[*][b]Viceroyalty[/b] (ex: Viceroyalty of New Spain, Viceroyalty of Peru, Viceroyalty of the Río de la Plata, Viceroyalty of New Granada)
+[img]https://i.imgur.com/ap3rI0h.png[/img]
+[*][b]Dual monarchy[/b] (ex : Austria-hungary empire)
+[/list]
+
+[h1][u]Diplomatic Actions:[/u][/h1]
+
+Re-work of the type of diplomatic relations by adding an external mod or by myself: 
+
+[b][u]> Subject Manager (Credit to: Subject Manager, Merge Subject):[/u][/b]
+[img]https://i.imgur.com/CrtvZPw.png[/img]
+[list]
+[*]Diplomatic Merge Subject
+[*]Changed vassal laws
+[*]Revoked subject state
+[*]Gave subject state
+[*]Raised and Lowered subject level 
+[/list]
+
+[b][u]> Other interaction added:[/u][/b]
+[img]https://i.imgur.com/tCAqbs6.png[/img]
+[list]
+[*]State transfer tool
+[*]Diplomatic recognition
+[/list]
+
+[h1][u]Diplomatic Play:[/u][/h1]
+[b][u]> Other interaction added:[/u][/b]
+[img]https://i.imgur.com/9NAZ2X1.png[/img]
+[list]
+[*]Small and large annexation
+[/list]
+
+[h1][u]Improved AI strategies:[/u][/h1]
+[b][u]> From an AI point of view:[/u][/b]
+[img]https://i.imgur.com/NRvmzkT.png[/img]
+[list]
+[*]I reworked the mod: Subjects Hard Resource Development which allows your colonial subjects (only) to produce indecent amounts of raw material.
+[/list]
+ 
+[img]https://i.imgur.com/0eBHEOX.png[/img]
+
+[h1][u]Flavor:[/u][/h1]
+
+- Rework of the British raj which is too powerful and too united -> I will split it into different presidencies
+- Rework of the Portuguese Mozambique for the mod 1871 - 1914 creation of 2 new companies: Mozambique Company, Niassa Company
+
+[h1][u]Mechanical:[/u][/h1]
+
+I will try to create a graphic mod so that the name of a union of countries (Ex: Austro-Hungarian Empire, USSR, etc.) appears without revealing the name of the states of the union according to the zoom on the paper map. 
+
+To be more precise in max zoom you will see the Austro-Hungarian empire name an more you zoom on the paper map more this name would disappear to harm the name of Austria and Hungary which constitute the union, [u]in the same way as duchies or counties are represented in a kingdom in CK3[/u].
+
+"All this is a good idea I think, but I have no idea how to put it in place so if anyone has an idea my pm are open."
+
+[h1][u]To follow the updates:[/u][/h1]
+
+Look at the change notes to specifically follow the updates and development of this mod map.
+
+[img]https://i.imgur.com/8UYRkf2.png[/img]
+
+ [h1][u]Language:[/u][/h1]
+
+- English (Only for now)
+
+ [h1][u]Compatibilité:[/u][/h1]
+
+- All mods that do not modify the map like Victorian Flavor Mod
+
+ [h1][u]DLC :[/u][/h1]
+
+- Even if you did not have the DLCs, it does not change anything, you will benefit from the modification of the map provided by the DLC and the modification of the paint.
+

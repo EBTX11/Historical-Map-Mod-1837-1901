@@ -1,0 +1,65 @@
+austria_hungary = {
+	color = "austriawhite"
+
+	possible = {
+		exists = c:AUS
+		THIS = c:AUS
+	}
+}
+japanese_shogunate = {
+	color = "white"
+	possible = {
+		exists = c:JAP
+		THIS = c:JAP
+	}
+}
+republican_france = {
+	color = "frenchblue"
+
+	possible = {
+		exists = c:FRA
+		THIS = c:FRA
+		NOT = { 
+			has_law = law_type:law_autocracy 
+			has_law = law_type:law_oligarchy 
+			has_law = law_type:law_elder_council 
+			has_law = law_type:law_landed_voting 
+			has_law = law_type:law_wealth_voting 
+			has_law = law_type:law_census_voting 
+			has_law = law_type:law_universal_suffrage 
+		}
+		OR = {
+			has_law = law_type:law_parliamentary_republic
+			has_law = law_type:law_presidential_republic
+		}
+	}
+}
+unpleasant_germany = {
+	color = "germanreich"
+
+	possible = {
+		exists = c:GER
+		THIS = c:GER
+		coa_dictatorship_trigger = yes
+	}
+}
+REPLACE:soviet_red = {
+	color = "rednew"
+
+	possible = {
+		exists = c:RUS
+		c:RUS ?= THIS
+		has_law_or_variant = law_type:law_council_republic
+	}
+}
+
+napoleon_italia = {
+	color = "napoleon_italia"
+
+	possible = {
+		exists = c:ITA
+		c:ITA ?= THIS
+
+		is_subject_type = subject_type_protectorate 
+	}
+}
