@@ -1,0 +1,69 @@
+﻿CHARACTERS = {  
+	# c:FRA ?= { 
+    #     create_character = {
+    #         template =  fra_napoleon_iii_character_template
+	# 		ruler = yes
+	# 	} 
+	# }
+	c:GBR ?= {  
+        create_character = {
+            template =  gbr_queen_victoria_template
+			ruler = yes
+		}
+	}
+	# c:RUS ?= {
+    #     create_character = {
+    #         template =  RUS_alexander_ii
+	# 		ruler = yes
+	# 	}
+	# }
+	# c:AUS ?= {
+    #     create_character = {
+    #         template =  aus_franz_josef_I_habsburg_template
+	# 		ruler = yes
+	# 	}
+	# } 
+	# c:NGF ?= {
+    #     create_character = {
+    #         template =  pru_wilhelm_IV_hohenzollern_template
+	# 		ruler = yes
+	# 	}
+	# }  
+	# c:USA ?= {
+    #     create_character = {
+    #         template =  usa_lincoln_character_template
+	# 		ruler = yes
+	# 	}
+	# } 
+	# c:CSA ?= {
+    #     create_character = {
+    #         template = csa_jefferson_davis_template
+	# 		ruler = yes
+	# 	}
+	# } 
+	# c:MEX ?= {
+    #     create_character = {
+    #         template = aus_maximilian_I_habsburg_template
+	# 		ruler = yes
+	# 	}
+	# } 
+	# c:JAP ?= {
+    #     create_character = {
+    #         template = JAP_komei_yamato
+	# 		ruler = yes
+	# 	}
+	# } 
+	# c:TUR ?= {
+    #     create_character = {
+    #         template = tur_abdulmecid_osmanoglu_template
+	# 		ruler = yes
+	# 	}
+	# } 
+	# c:ITA ?= {
+    #     create_character = {
+    #         template = sar_victor_emmanuel_template
+	# 		ruler = yes
+	# 	}
+	# }  
+}
+
