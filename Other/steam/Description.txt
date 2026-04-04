@@ -1,0 +1,72 @@
+[img]https://i.imgur.com/P10CVKf.png[/img]
+
+This mod is part of a collection of map mods called "The Historical Map Mod Collection". Other Map Mods:
+
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3699476377]Historical Map Mod: Napoleonic Wars (1804–1814)[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3699477697]Historical Map Mod: The Victorian Era (1837–1901)[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3699478546]Historical Map Mod: Civil War (1861–1866)[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3699479308]Historical Map Mod: The Scramble for Africa (1871–1900)[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3699480137]Historical Map Mod: La Belle Époque (1890–1914)[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3699480725]Historical Map Mod: Interwar Period (1919–1939)[/url]
+
+"These are mods that add alternative start dates, similar to those in CK3 and EU4. It’s as if your campaign had progressed historically from 1836 up to 1861, 1871, 1890, or 1919, with population, technology, and industrialization adjusted to match the chosen date"
+
+[img]https://i.imgur.com/DCDufFL.png[/img]
+
+This mod aims to provide a historically accurate reconstruction of borders and geopolitical balances over a given period.
+
+Instead of focusing on a single year, this mod covers a 5 to 10-year timeframe, allowing the inclusion of all states, colonies, protectorates, and subjects that existed during that period.
+
+The goal is to feel as close as possible to an official expansion, as if Paradox had introduced new starting dates in vanilla, with alternative map setups and configurations.
+
+To achieve this, the mod significantly reworks:
+
+[list]
+[*] Country borders, adjusted to match historical realities
+[*] Population, based on period-accurate demographic data
+[*] Industrialization levels, adapted to the historical context
+[*] Technology aligned with the starting date (e.g. in 1804, Tier 1 technologies for most countries and partial Tier 2 for France and Great Britain; in 1890 or 1919, a large portion of technologies already unlocked, as if the campaign had naturally progressed to that stage by the start date).
+[*] The starting date (based on a precise year tied to a major historical event)
+[*] Certain decisions and journal entries, disabled or adjusted when they become inconsistent with the timeframe
+[/list]
+
+The objective is to deliver an immersive, credible, and coherent experience, grounded in historical accuracy while remaining true to the spirit of the game.
+
+[img]https://i.imgur.com/NfmRt3C.png[/img]
+
+[list]
+[*] Creation of 30+ new historical countries
+[/list]
+
+[img]https://i.imgur.com/QD4EBsm.png[/img]
+[img]https://i.imgur.com/1e1Cfj8.png[/img]
+[img]https://i.imgur.com/xBPHlVy.png[/img]
+
+[list]
+[*] Creation of 50+ new flags: colonial, dynastic, historically accurate, or period-significant flags (e.g. Imperial Japan flag, Austro-Hungarian flag…)
+[*] Creation of 50+ new names and dynamic names for improved accuracy (e.g. Viceroyalty of New Spain, Principality of Lucca and Piombino, Duchy of Saxe-Hildburghausen, Provisional Government of the ROC, Livonia, German East Africa)
+[*] Population adjustments based on the era (currently focused on major powers, to be refined over time — e.g. for 1890–1914: USA ~90M, Russia ~170M based on 1900 data)
+[*] Political regimes adjusted to match the period (e.g. Imperial Russia = Autocratic Monarchy, Second Mexican Empire, etc.)
+[*] Improved diplomatic relations: alliances (Axis, Triple Alliance…), power blocs, affinities, claims, Continental Blockade, etc.
+[/list]
+
+[img]https://i.imgur.com/RSuwL1Y.png[/img]
+
+[list]
+[*] Accurate ruler characters (Bonaparte dynasty in Europe, US Presidents, Emperor of Japan, German Reich leadership, etc.)
+[/list]
+
+[img]https://i.imgur.com/8UYRkf2.png[/img]
+
+[h1][u]Language:[/u][/h1]
+
+- English (for now)
+
+[h1][u]Compatibility:[/u][/h1]
+
+- Compatible with all mods that do not modify the map (e.g. Victorian Flavor Mod)
+
+[h1][u]Contacts and Tips:[/u][/h1]
+
+DISCORD: https://discord.gg/PPwYGq5N89  
+Buymeacoffee: https://www.buymeacoffee.com/ebtx
