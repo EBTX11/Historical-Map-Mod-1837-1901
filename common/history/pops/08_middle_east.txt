@@ -482,7 +482,6 @@
 				size = 2300
 			}
 		}
-	
 		region_state:Y03 = {
 			create_pop = {
 				culture = bedouin

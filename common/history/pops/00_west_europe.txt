@@ -1531,22 +1531,6 @@
 				size = 323992
 			}
 		}
-		region_state:OLD = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 424000
-			}
-			create_pop = {
-				culture = french
-				size = 8400
-			}
-			create_pop = {
-				culture = north_german
-				size = 323992
-			}
-		}
-	
 		region_state:Y08 = {
 			create_pop = {
 				culture = north_german
@@ -1563,6 +1547,21 @@
 			}
 		}
 		region_state:Y09 = {
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 424000
+			}
+			create_pop = {
+				culture = french
+				size = 8400
+			}
+			create_pop = {
+				culture = north_german
+				size = 323992
+			}
+		}
+		region_state:OLD = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1696,7 +1695,7 @@
 			}
 		}
 	
-		region_state:OLD = {
+		region_state:Y10 = {
 			create_pop = {
 				culture = north_german
 				size = 374604
@@ -1715,8 +1714,7 @@
 				size = 20000
 			}
 		}
-	
-		region_state:Y10 = {
+		region_state:OLD = {
 			create_pop = {
 				culture = north_german
 				size = 374604
@@ -1990,8 +1988,57 @@
 				culture = ashkenazi
 				size = 293
 			}
-		} 
+		}
+	
 		region_state:PRU = {
+			create_pop = {
+				culture = north_german
+				size = 1453212
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 13004
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 5072
+			}
+			create_pop = { # rough estimate of 200k Sorbs in 1836
+				culture = sorb
+				size = 150106
+			}
+			create_pop = {
+				culture = sorb
+				religion = protestant
+				size = 50106
+			}
+		}
+		region_state:Y04 = {
+			create_pop = {
+				culture = north_german
+				size = 1453212
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 13004
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 5072
+			}
+			create_pop = { # rough estimate of 200k Sorbs in 1836
+				culture = sorb
+				size = 150106
+			}
+			create_pop = {
+				culture = sorb
+				religion = protestant
+				size = 50106
+			}
+		}
+		region_state:Y05 = {
 			create_pop = {
 				culture = north_german
 				size = 1453212
@@ -2064,55 +2111,6 @@
 			}
 		}
 		region_state:BRE = {
-			create_pop = {
-				culture = north_german
-				size = 1453212
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 13004
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 5072
-			}
-			create_pop = { # rough estimate of 200k Sorbs in 1836
-				culture = sorb
-				size = 150106
-			}
-			create_pop = {
-				culture = sorb
-				religion = protestant
-				size = 50106
-			}
-		}
-	
-		region_state:Y04 = {
-			create_pop = {
-				culture = north_german
-				size = 1453212
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 13004
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 5072
-			}
-			create_pop = { # rough estimate of 200k Sorbs in 1836
-				culture = sorb
-				size = 150106
-			}
-			create_pop = {
-				culture = sorb
-				religion = protestant
-				size = 50106
-			}
-		}
-		region_state:Y05 = {
 			create_pop = {
 				culture = north_german
 				size = 1453212

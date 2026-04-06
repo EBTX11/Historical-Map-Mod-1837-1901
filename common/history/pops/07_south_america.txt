@@ -433,20 +433,7 @@ POPS = {
 		}
 	}
 	s:STATE_PASTAZA = {
-		region_state:PBC = {
-			create_pop = {
-				culture = amazonian
-				size = 40000
-			}
-			create_pop = {
-				culture = south_andean
-				size = 11996
-			}
-			create_pop = {
-				culture = quechua
-				size = 4004
-			}
-		}
+		
 		region_state:ECU = {
 			create_pop = {
 				culture = amazonian
@@ -461,8 +448,25 @@ POPS = {
 				size = 3200
 			}
 		}
+	
+		region_state:PBC = {
+			create_pop = {
+				culture = amazonian
+				size = 40000
+			}
+			create_pop = {
+				culture = south_andean
+				size = 11996
+			}
+			create_pop = {
+				culture = quechua
+				size = 4004
+			}
+		}
 	}
 	s:STATE_TARAPACA = {
+		
+	
 		region_state:PBC = {
 			create_pop = {
 				culture = south_andean
@@ -484,6 +488,8 @@ POPS = {
 		}
 	}
 	s:STATE_ANTOFAGASTA = {
+		
+	
 		region_state:PBC = {
 			create_pop = {
 				culture = south_andean
@@ -504,7 +510,9 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CRUZ = {
-		region_state:PBC = {
+		
+	
+		region_state:AMZ = {
 			create_pop = {
 				culture = south_andean
 				size = 28200
@@ -522,8 +530,7 @@ POPS = {
 				size = 32000
 			}
 		}
-	
-		region_state:AMZ = {
+		region_state:PBC = {
 			create_pop = {
 				culture = south_andean
 				size = 28200
@@ -561,28 +568,7 @@ POPS = {
 		}
 	}
 	s:STATE_LA_PAZ = {
-		region_state:PBC = {
-			create_pop = {
-				culture = south_andean
-				size = 220792
-			}
-			create_pop = {
-				culture = quechua
-				size = 318000
-			}
-			create_pop = {
-				culture = aimara
-				size = 268004
-			}
-			create_pop = {
-				culture = amazonian
-				size = 47000
-			}
-			create_pop = {
-				culture = afro_caribeno	# Yungas Afro-Bolivians
-				size = 3200
-			}
-		}
+		
 	
 		region_state:AMZ = {
 			create_pop = {
@@ -628,8 +614,32 @@ POPS = {
 				size = 3200
 			}
 		}
+		region_state:PBC = {
+			create_pop = {
+				culture = south_andean
+				size = 220792
+			}
+			create_pop = {
+				culture = quechua
+				size = 318000
+			}
+			create_pop = {
+				culture = aimara
+				size = 268004
+			}
+			create_pop = {
+				culture = amazonian
+				size = 47000
+			}
+			create_pop = {
+				culture = afro_caribeno	# Yungas Afro-Bolivians
+				size = 3200
+			}
+		}
 	}
 	s:STATE_POTOSI = {
+		
+	
 		region_state:PBC = {
 			create_pop = {
 				culture = south_andean
@@ -646,6 +656,8 @@ POPS = {
 		}
 	}
 	s:STATE_CAJAMARCA = {
+		
+	
 		region_state:PBC = {
 			create_pop = {
 				culture = south_andean
@@ -671,29 +683,7 @@ POPS = {
 		}
 	}
 	s:STATE_LIMA = {
-		region_state:PBC = {
-			create_pop = {
-				culture = south_andean
-				size = 248000
-			}
-			create_pop = {
-				culture = quechua
-				size = 212000
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 21900
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 6200
-			}
-			create_pop = {
-				culture = amazonian
-				size = 16000
-			}
-		}
+		
 	
 		region_state:AMZ = {
 			create_pop = {
@@ -741,31 +731,32 @@ POPS = {
 				size = 16000
 			}
 		}
-	}
-	s:STATE_ICA = {
 		region_state:PBC = {
 			create_pop = {
 				culture = south_andean
-				size = 92904
+				size = 248000
+			}
+			create_pop = {
+				culture = quechua
+				size = 212000
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 3350
+				size = 21900
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_caribeno
-				size = 650
-			}
-			create_pop = {
-				culture = quechua
-				size = 242804
+				size = 6200
 			}
 			create_pop = {
 				culture = amazonian
-				size = 12000
+				size = 16000
 			}
 		}
+	}
+	s:STATE_ICA = {
+		
 		region_state:IQU = {
 			create_pop = {
 				culture = quechua
@@ -796,8 +787,33 @@ POPS = {
 				size = 12000
 			}
 		}
+		region_state:PBC = {
+			create_pop = {
+				culture = south_andean
+				size = 92904
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 3350
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 650
+			}
+			create_pop = {
+				culture = quechua
+				size = 242804
+			}
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}
+		}
 	}
 	s:STATE_AREQUIPA = {
+		
+	
 		region_state:PBC = {
 			create_pop = {
 				culture = south_andean
@@ -844,6 +860,19 @@ POPS = {
 		}
 	}
 	s:STATE_JUJUY = {
+		
+		region_state:ARG = {
+			create_pop = {
+				culture = platinean
+				size = 12304
+			}
+			create_pop = {
+				culture = quechua
+				size = 1100
+			}
+		}
+
+	
 		region_state:PBC = {
 			create_pop = {
 				culture = south_andean
@@ -858,18 +887,6 @@ POPS = {
 				size = 4000
 			}
 		}
-		region_state:ARG = {
-			create_pop = {
-				culture = platinean
-				size = 12304
-			}
-			create_pop = {
-				culture = quechua
-				size = 1100
-			}
-		}
-
-	
 		region_state:GNI = {
 			create_pop = {
 				culture = south_andean
@@ -1009,14 +1026,13 @@ POPS = {
 			}
 		}
 	
-		region_state:SLK = {
+		region_state:Y02 = {
 			create_pop = {
 				culture = patagonian
 				size = 25100
 			}
 		}
-	
-		region_state:Y02 = {
+		region_state:SLK = {
 			create_pop = {
 				culture = patagonian
 				size = 25100
@@ -1244,8 +1260,12 @@ POPS = {
 	
 		region_state:Y02 = {
 			create_pop = {
+				culture = south_andean
+				size = 52004
+			}
+			create_pop = {
 				culture = patagonian
-				size = 12000
+				size = 3200
 			}
 		}
 	}
