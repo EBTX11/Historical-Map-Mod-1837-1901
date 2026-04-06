@@ -6852,14 +6852,9 @@ STATES = {
 			country = c:EGY
 			owned_provinces = {
 				x0C8C1E x720E3F x60D0E0 x599378 x32C1E8 xE050E0 xC2B483
-			}
-		}
-		create_state = {
-			country = c:Y03
-			owned_provinces = {
 				x104A1B x5BDBD7 xA25988
 			}
-		}
+		} 
 		add_homeland = cu:mashriqi
 		add_homeland = cu:bedouin
 		add_claim = c:TUR
@@ -6889,14 +6884,9 @@ STATES = {
 			country = c:EGY
 			owned_provinces = {
 				x80B020 x9A258F xCB0113 xD1C9DA x186A43 x499A08 xE011E0 x6905BC x99646E x8EF895 xE009D7 x2FDA89 x9AAC16 xE2C7D1 x7A1679 x0F0BCB xE09060
-			}
-		}
-		create_state = {
-			country = c:Y03
-			owned_provinces = {
 				x3E0347
 			}
-		}
+		} 
 		add_homeland = cu:mashriqi
 		add_claim = c:TUR
 	}

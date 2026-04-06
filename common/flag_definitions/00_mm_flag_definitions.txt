@@ -667,6 +667,18 @@
 # }
 
 
+LOM = { 
+	flag_definition = {
+		coa = LOM_hmm
+		subject_canton = LOM_hmm
+		allow_overlord_canton = no
+		priority = 21
+		trigger = { 
+			has_game_rule = historical_map_mod_enabled
+			#coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	} 
+} 
 INJECT:POL = { 
 	flag_definition = {
 		coa = POL_napoleon
