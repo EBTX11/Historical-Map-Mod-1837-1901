@@ -36,4 +36,30 @@
 		}
 	}
  
+
+	c:PBC ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xD2B642.front
+		}
+	}
+	c:ARG ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xCCD312.front
+		}
+	}
+	c:CHL ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xCCD312.front
+		}
+	}
+ 
+
+
+
+
+
+
 } 

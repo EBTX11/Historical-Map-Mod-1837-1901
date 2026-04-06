@@ -11,6 +11,12 @@
 			ruler = yes
 		}
 	}
+	c:PBC ?= {  
+        create_character = {
+            template =  BOL_Andres_de_Santa_Cruz
+			ruler = yes
+		}
+	}
 	# c:RUS ?= {
     #     create_character = {
     #         template =  RUS_alexander_ii

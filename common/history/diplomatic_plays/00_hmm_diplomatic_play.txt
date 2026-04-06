@@ -110,4 +110,69 @@
 			}  
 		} 
 	} 
+
+	c:CHL ?= {
+		create_diplomatic_play = {
+			name = supremacie_francaise
+ 
+			war = yes 
+			type = dp_liberate_country
+			target_country = c:PBC
+			country_definition = PEU 
+			 
+            add_initiator_backers = { c:ARG } 
+   
+			#ARG
+			add_war_goal = {
+				holder = c:ARG 
+				type = humiliation
+				target_country = c:PBC 
+			} 
+			add_war_goal = {
+				holder = c:ARG 
+				type = return_state
+				target_country = c:PBC
+				target_state = s:STATE_JUJUY.region_state:PBC  
+			}  
+			#CHL
+			add_war_goal = {
+				holder = c:CHL 
+				type = humiliation
+				target_country = c:PBC 
+			} 
+			# add_war_goal = {
+			# 	holder = c:CHL 
+			# 	type = return_state
+			# 	target_country = c:PBC
+			# 	target_state = s:STATE_ANTOFAGASTA.region_state:PBC  
+			# }  
+
+			#PBC
+			add_war_goal = {
+				holder = c:PBC 
+				type = humiliation
+				target_country = c:ARG
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			} 
+			add_war_goal = {
+				holder = c:PBC 
+				type = humiliation
+				target_country = c:CHL
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			} 
+
+			add_war_goal = {
+				holder = c:PBC 
+				type = revoke_claim
+				target_country = c:ARG
+				target_state = s:STATE_JUJUY.region_state:PBC  
+			} 
+			add_war_goal = {
+				holder = c:PBC 
+				type = revoke_claim
+				target_country = c:CHL
+				target_state = s:STATE_ANTOFAGASTA.region_state:PBC  
+			} 
+		} 
+	} 
 }

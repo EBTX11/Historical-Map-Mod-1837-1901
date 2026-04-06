@@ -4264,11 +4264,13 @@ FND = {
 }
 
 PBC = {
-    color = { 234 107 163 }
+    color = { 128 0 0 }
     country_type = recognized
     tier = empire
-    cultures = { south_andean }
-    capital = STATE_LA_PAZ
+    cultures = { north_andean south_andean }
+    capital = STATE_LA_PAZ #STATE_AREQUIPA
+
+	religion = catholic
 }
 
 IQU = {
