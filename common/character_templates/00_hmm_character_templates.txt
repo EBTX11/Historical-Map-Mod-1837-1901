@@ -1,0 +1,234 @@
+﻿hohenzollern_character_template = {
+    first_name = friedrich_wilhelm 
+    last_name = von_hohenzollern
+    historical = yes
+    culture = primary_culture #cu:north_german
+    female = no
+    birth_date = 1859.01.27
+}
+  
+belgique_character_template = {
+    first_name = léopold
+    last_name = de_belgique
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1835.04.06
+}
+
+carnot_character_template = {
+    first_name = sadi
+    last_name = carnot
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1837.08.11
+}
+
+romanov_character_template = {
+    first_name = aleksandr
+    last_name = romanov
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1845.03.10
+}
+
+harrison_character_template = {
+    first_name = benjamin
+    last_name = harrison
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1833.08.20
+}
+
+savoia_character_template = {
+    first_name = umberto
+    last_name = savoia
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1844.03.14
+}
+
+nassau_character_template = {
+    first_name = wilhelmina
+    last_name = oranje_nassau
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1870.08.31
+}
+
+bonaparte_character_template = {
+    first_name = napoléon
+    last_name = bonaparte
+	is_general = yes
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1769.08.15
+}
+
+bonaparte_2_character_template = {
+    first_name = joseph
+    last_name = bonaparte
+    historical = yes
+    culture = cu:french
+    female = no
+    birth_date = 1768.01.07
+}
+
+bonaparte_3_character_template = {
+    first_name = louis
+    last_name = bonaparte
+    historical = yes
+    culture = cu:french
+    female = no
+    birth_date = 1779.09.02
+}
+
+bonaparte_4_character_template = {
+    first_name = jerome
+    last_name = bonaparte
+    historical = yes
+    culture = cu:french
+    female = no
+    birth_date = 1784.11.15
+}
+
+hanover_character_template = {
+    first_name = george
+    last_name = hanover
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1762.08.12
+}
+
+habsburg_lorraine_character_template = {
+    first_name = francis
+    last_name = habsburg_lorraine
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1768.02.12
+}
+
+romanov_1_character_template = {
+    first_name = alexander
+    last_name = romanov
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1777.12.23
+}
+
+hohenzollern_character_template = {
+    first_name = frederick_william
+    last_name = hohenzollern
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1770.08.03
+}
+
+bourbon_character_template = {
+    first_name = ferdinand
+    last_name = bourbon
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1784.10.14
+}
+
+braganza_character_template = {
+    first_name = john
+    last_name = braganza
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1767.05.13
+}
+
+holstein_gottorp_character_template = {
+    first_name = charles
+    last_name = holstein_gottorp
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1763.01.26
+}
+
+wittelsbach_character_template = {
+    first_name = maximilian_joseph
+    last_name = wittelsbach
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1756.05.27
+}
+
+bourbon_character_template = {
+    first_name = ferdinand
+    last_name = bourbon
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1751.01.12
+}
+
+chiaramonti_character_template = {
+    first_name = barnaba
+    last_name = chiaramonti
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1742.08.14
+}
+
+jefferson_character_template = {
+    first_name = thomas
+    last_name = jefferson
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1743.04.13
+}
+
+aisin_gioro_character_template = {
+    first_name = yongyan
+    last_name = aisin_gioro
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1760.11.13
+}
+
+tokugawa_character_template = {
+    first_name = ienari
+    last_name = tokugawa
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1773.11.18
+}
+
+osmanoglu_character_template = {
+    first_name = selim
+    last_name = osmanoglu
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1761.12.24
+}
+
+bourbon_parma_character_template = {
+    first_name = louis
+    last_name = bourbon_parma
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1773.08.05
+}

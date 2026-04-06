@@ -1,0 +1,39 @@
+﻿MILITARY_DEPLOYMENTS = {  
+	c:GBR ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x025170.front
+		}
+	}
+	c:TUR ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xA8674E.front
+		}
+	}
+	c:RUS ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xA8674E.front
+		}
+	}
+	c:AUS ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xA8674E.front
+		}
+	}
+	c:FRA ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x63E9DB.front
+		}
+	}
+	c:EGY ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xB5969E.front
+		}
+	}
+ 
+} 

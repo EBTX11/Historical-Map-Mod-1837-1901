@@ -1,0 +1,113 @@
+﻿DIPLOMATIC_PLAYS = {  
+	c:TUR ?= {
+		create_diplomatic_play = {
+			name = supremacie_francaise
+ 
+			war = yes 
+			type = dp_return_state
+			target_country = c:EGY
+			
+			
+            add_initiator_backers = { c:GBR }
+            add_initiator_backers = { c:AUS }
+            add_initiator_backers = { c:RUS } 
+
+            add_target_backers = { c:FRA }
+            add_target_backers = { c:SPA } 
+    
+			#FRA
+			add_war_goal = {
+				holder = c:FRA 
+				type = humiliation
+				target_country = c:GBR
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}     
+			add_war_goal = {
+				holder = c:FRA 
+				type = humiliation
+				target_country = c:RUS
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}     
+			add_war_goal = {
+				holder = c:FRA 
+				type = humiliation
+				target_country = c:AUS
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}
+			
+			#GBR
+			add_war_goal = {
+				holder = c:GBR  
+				type = humiliation
+				target_country = c:FRA
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}    
+			 
+			#RUS
+			add_war_goal = {
+				holder = c:RUS 
+				type = humiliation
+				target_country = c:FRA
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}    
+
+			#AUS
+			add_war_goal = {
+				holder = c:AUS 
+				type = humiliation
+				target_country = c:FRA
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			} 
+ 
+			#TUR
+			add_war_goal = {
+				holder = c:TUR 
+				type = transfer_subject
+				target_country = c:HDJ 
+			}   
+
+			add_war_goal = {
+				holder = c:TUR 
+				type = return_state
+				target_country = c:EGY
+				target_state = s:STATE_ADANA.region_state:EGY  
+			}     
+			add_war_goal = {
+				holder = c:TUR 
+				type = return_state
+				target_country = c:EGY
+				target_state = s:STATE_ALEPPO.region_state:EGY  
+			}     
+			add_war_goal = {
+				holder = c:TUR 
+				type = return_state
+				target_country = c:EGY
+				target_state = s:STATE_SYRIA.region_state:EGY  
+			}     
+			add_war_goal = {
+				holder = c:TUR 
+				type = return_state
+				target_country = c:EGY
+				target_state = s:STATE_LEBANON.region_state:EGY  
+			}   
+			add_war_goal = {
+				holder = c:TUR 
+				type = return_state
+				target_country = c:EGY
+				target_state = s:STATE_PALESTINE.region_state:EGY  
+			}   
+			add_war_goal = {
+				holder = c:TUR 
+				type = return_state
+				target_country = c:EGY
+				target_state = s:STATE_TRANSJORDAN.region_state:EGY  
+			}  
+			add_war_goal = {
+				holder = c:TUR 
+				type = return_state
+				target_country = c:EGY
+				target_state = s:STATE_CRETE.region_state:EGY  
+			}  
+		} 
+	} 
+}
