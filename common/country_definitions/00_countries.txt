@@ -45,7 +45,7 @@ RUS = {
 	tier = empire
 
 	cultures = { russian }
-	capital = STATE_MOSCOW
+	capital = STATE_INGRIA
  
 
 	religion = orthodox
@@ -360,6 +360,7 @@ NET = {
 	capital = STATE_HOLLAND
 }
 
+
 POR = {
 	color = hsv360 	{	154	90	25	}
 
@@ -368,8 +369,8 @@ POR = {
 	tier = kingdom
 
 	cultures = { portuguese } #brazilian
-	#capital = STATE_ESTREMADURA
-	capital = STATE_RIO_DE_JANEIRO
+	capital = STATE_ESTREMADURA
+	#capital = STATE_RIO_DE_JANEIRO
  
 }
 
