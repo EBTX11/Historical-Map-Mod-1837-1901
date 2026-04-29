@@ -1,9 +1,27 @@
 ﻿POPS = {
 	s:STATE_LOMBARDY = {
+		
+	
+		region_state:LIE = {
+			create_pop = {
+				culture = north_italian
+				size = 2376996
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 396
+			}
+		}
 		region_state:LOM = {
 			create_pop = {
 				culture = north_italian
-				size = 4754784
+				size = 2376996
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 396
 			}
 		}
 	}

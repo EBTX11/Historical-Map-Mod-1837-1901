@@ -217,7 +217,7 @@ STATE_ICELAND = {
         building_whaling_station = 5
         building_fishing_wharf = 3
     }
-    naval_exit_id = 3022
+    naval_exit_id = 3070
 }
 
 STATE_GREENLAND = {
@@ -303,7 +303,7 @@ STATE_WALES = {
         building_logging_camp = 14
         building_fishing_wharf = 4
     }
-    naval_exit_id = 3030
+    naval_exit_id = 3077
 }
 
 STATE_YORKSHIRE = {
@@ -367,7 +367,7 @@ STATE_MIDLANDS = {
         building_logging_camp = 6
         building_fishing_wharf = 2
     }
-    naval_exit_id = 3027
+    naval_exit_id = 3105
 }
 
 STATE_EAST_ANGLIA = {
@@ -392,7 +392,7 @@ STATE_EAST_ANGLIA = {
         type = "building_oil_rig"
         undiscovered_amount = 20
     }
-    naval_exit_id = 3028
+    naval_exit_id = 3105
 }
 
 STATE_WEST_COUNTRY = {
@@ -471,7 +471,7 @@ STATE_MUNSTER = {
         building_logging_camp = 4
         building_fishing_wharf = 12
     }
-    naval_exit_id = 3030
+    naval_exit_id = 3077
 }
 
 STATE_LEINSTER = {
@@ -545,7 +545,7 @@ STATE_PROVENCE = {
         building_logging_camp = 7
         building_fishing_wharf = 12
     }
-    naval_exit_id = 3032
+    naval_exit_id = 3098
 }
 
 STATE_NORMANDY = {
@@ -584,7 +584,7 @@ STATE_LANGUEDOC = {
         building_logging_camp = 6
         building_fishing_wharf = 8
     }
-    naval_exit_id = 3032
+    naval_exit_id = 3098
 }
 
 STATE_RHONE = {
@@ -623,7 +623,7 @@ STATE_FRENCH_LOW_COUNTRIES = {
         building_logging_camp = 3
         building_fishing_wharf = 6
     }
-    naval_exit_id = 3028
+    naval_exit_id = 3105
 }
 
 STATE_PICARDY = {
@@ -679,6 +679,9 @@ STATE_POITOU = {
         building_fishing_wharf = 6
     }
     naval_exit_id = 3029
+    blockade_locator = {
+        position = { 4066 0 2642 }
+    }
 }
 
 STATE_GUYENNE = {
@@ -851,7 +854,7 @@ STATE_HOLLAND = {
         building_logging_camp = 4
         building_fishing_wharf = 12
     }
-    naval_exit_id = 3028
+    naval_exit_id = 3105
 }
 
 STATE_FRIESLAND = {
@@ -874,7 +877,7 @@ STATE_FRIESLAND = {
         type = "building_oil_rig"
         undiscovered_amount = 60
     }
-    naval_exit_id = 3027
+    naval_exit_id = 3105
 }
 
 STATE_GELRE = {
@@ -929,7 +932,7 @@ STATE_FLANDERS = {
         building_logging_camp = 23
         building_fishing_wharf = 5
     }
-    naval_exit_id = 3028
+    naval_exit_id = 3105
 }
 
 STATE_AUSTRIA = {
@@ -972,7 +975,7 @@ STATE_BOHEMIA = {
 STATE_MORAVIA = {
     id = 53
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x08AA4B" "x10DFDF" "x12778D" "x1D088E" "x49C8F7" "x4B3444" "xD9A784" "xEF6080" }
+    provinces = { "x08AA4B" "x10DFDF" "x12778D" "x1D088E" "x49C8F7" "x4B3444" "x71E080" "xD9A784" "xEF6080" "xF0E080" }
     city = "xD9A784"
     farm = "xEF6080"
     mine = "x1D088E"
@@ -1054,7 +1057,7 @@ STATE_POMERANIA = {
         building_logging_camp = 11
         building_fishing_wharf = 10
     }
-    naval_exit_id = 3019
+    naval_exit_id = 3074
 }
 
 STATE_ELBE = {
@@ -1078,13 +1081,13 @@ STATE_ELBE = {
         type = "building_oil_rig"
         undiscovered_amount = 60
     }
-    naval_exit_id = 3027
+    naval_exit_id = 3105
 }
 
 STATE_EAST_SWITZERLAND = {
     id = 59
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x11C0E0" "x5FB41E" "x7E4B86" "x90C0E0" "xD00161" }
+    provinces = { "x325956"  "x11C0E0" "x5FB41E" "x7E4B86" "x90C0E0" "xD00161" }
     traits = { "state_trait_alps_mountains" "state_trait_rhine_river" }
     city = "x5FB41E"
     farm = "x7E4B86"
@@ -1141,10 +1144,7 @@ STATE_WESTPHALIA = {
 STATE_ANHALT = {
     id = 62
     subsistence_building = "building_subsistence_farm"
-    provinces = { 
-        "x12694A" "x34386E" "x3C9B93" "x618061" "x8A448C" "xA080E0" "xA51232" "xCBA4A5" "xCF5D8E" "xE0C0A0" "xED8F7B" 
-        "x060E6E" "x4D8A8A" "x69A528"
-    }
+    provinces = { "x69A528" "x060E6E" "x4D8A8A"  "x12694A" "x34386E" "x3C9B93" "x618061" "x8A448C" "xA080E0" "xA51232" "xCBA4A5" "xCF5D8E" "xE0C0A0" "xED8F7B" }
     prime_land = { "xE0C0A0" "xA080E0" "xA51232" }
     traits = { "state_trait_elbe_river" }
     city = "xA080E0"
@@ -1162,10 +1162,7 @@ STATE_ANHALT = {
 STATE_RHINELAND = {
     id = 63
     subsistence_building = "building_subsistence_farm"
-    provinces = { 
-        "x11C021" "x5D7A68" "x707505" "x904020" "xC1B963" "xD080A0" 
-        "x19C0F8" "xC71F8F" "xCC1012" 
-    }
+    provinces = { "xCC1012" "x19C0F8" "xC71F8F"  "x11C021" "x5D7A68" "x707505" "x904020" "xC1B963" "xD080A0" }
     traits = { "state_trait_rhine_river" "state_trait_great_terroir" }
     city = "x904020"
     farm = "x707505"
@@ -1201,10 +1198,7 @@ STATE_NORTH_RHINE = {
 STATE_BRANDENBURG = {
     id = 65
     subsistence_building = "building_subsistence_farm"
-    provinces = { 
-        "x069CFB" "x28CEC2" "x514C51" "x60BF20" "x61C0A0" "x76EF4E" "x82F9A8" "x83B1A8" "x9B9076" "x9E7304" "xA040A0" "xA65DA6" "xB90BFF" "xDF4020" "xF77289" "xF8D457" 
-        "x7DD24A" 
-    }
+    provinces = { "x7DD24A"  "x069CFB" "x28CEC2" "x514C51" "x60BF20" "x61C0A0" "x76EF4E" "x82F9A8" "x83B1A8" "x9B9076" "x9E7304" "xA040A0" "xA65DA6" "xB90BFF" "xDF4020" "xF77289" "xF8D457" }
     traits = { "state_trait_oder_river" }
     city = "xF8D457"
     farm = "x83B1A8"
@@ -1221,10 +1215,7 @@ STATE_BRANDENBURG = {
 STATE_SCHLESWIG_HOLSTEIN = {
     id = 66
     subsistence_building = "building_subsistence_farm"
-    provinces = { 
-        "x00C060" "x60809F" "x64824C" "x78B203" "x804160" "xBFCC21" "xE000A0" "xE3C876" 
-        "x23AC6B" 
-    }
+    provinces = { "x23AC6B"  "x00C060" "x60809F" "x64824C" "x78B203" "x804160" "xBFCC21" "xE000A0" "xE3C876" }
     city = "x64824C"
     port = "x60809F"
     farm = "x00C060"
@@ -1236,7 +1227,7 @@ STATE_SCHLESWIG_HOLSTEIN = {
         building_logging_camp = 6
         building_fishing_wharf = 6
     }
-    naval_exit_id = 3019
+    naval_exit_id = 3074
 }
 
 STATE_WURTTEMBERG = {
@@ -1294,16 +1285,13 @@ STATE_HANNOVER = {
         type = "building_oil_rig"
         undiscovered_amount = 60
     }
-    naval_exit_id = 3027
+    naval_exit_id = 3105
 }
 
 STATE_BRUNSWICK = {
     id = 70
     subsistence_building = "building_subsistence_farm"
-    provinces = {  
-        "x2180E0" "x43D537" "x4C16EA" "xA001E0" "xA61E6E" 
-        "xA86D49" 
-    }
+    provinces = { "xA86D49"  "x2180E0" "x43D537" "x4C16EA" "xA001E0" "xA61E6E" }
     prime_land = { "x2180E0" "xA61E6E" }
     city = "xA61E6E"
     farm = "x4C16EA"
@@ -1357,10 +1345,7 @@ STATE_FRANCONIA = {
 STATE_SAXONY = {
     id = 73
     subsistence_building = "building_subsistence_farm"
-    provinces = { 
-        "x169073" "x31E0C0" "x43CE26" "x5141A0" "x51C021" "x66FE0A" "x795368" "x917939" "xAFDFBF" "xC00A37" "xD0C021" 
-        "x1F24EA" "x2F2E5A" "x67E7A9" "xAC6F1A" "xC473B8"
-    }
+    provinces = { "x1F24EA" "xC473B8" "x2F2E5A" "xAC6F1A" "x67E7A9"  "x169073" "x31E0C0" "x43CE26" "x5141A0" "x51C021" "x66FE0A" "x795368" "x917939" "xAFDFBF" "xC00A37" "xD0C021" }
     prime_land = { "x31E0C0" "xC00A37" "xD0C021" "x66FE0A" "x169073" "xAFDFBF" "x917939" "x43CE26" }
     traits = { "state_trait_elbe_river" }
     city = "x169073"
@@ -1412,7 +1397,7 @@ STATE_MECKLENBURG = {
         building_logging_camp = 8
         building_fishing_wharf = 10
     }
-    naval_exit_id = 3019
+    naval_exit_id = 3074
 }
 
 STATE_RUHR = {

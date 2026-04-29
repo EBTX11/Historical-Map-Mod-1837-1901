@@ -1,5 +1,129 @@
 ﻿BUILDINGS={
 	s:STATE_LOMBARDY={
+		
+	
+		region_state:LIE={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:LIE"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:LIE"
+						levels=1
+						region="STATE_LOMBARDY"
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_vineyard"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:LIE"
+						levels=2
+						region="STATE_LOMBARDY"
+					}
+					building={
+						type="building_vineyard"
+						country="c:LIE"
+						levels=1
+						region="STATE_LOMBARDY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_vineyard" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:LIE"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					building={
+						type="building_textile_mill"
+						country="c:LIE"
+						levels=3
+						region="STATE_LOMBARDY"
+					}
+					building={
+						type="building_financial_district"
+						country="c:LIE"
+						levels=2
+						region="STATE_LOMBARDY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					building={
+						type="building_arms_industry"
+						country="c:LIE"
+						levels=2
+						region="STATE_LOMBARDY"
+					}
+					country={
+						country="c:LIE"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_artillery_foundry"
+				add_ownership={
+					country={
+						country="c:LIE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:LIE"
+						levels=1
+						region="STATE_LOMBARDY"
+					}
+					building={
+						type="building_manor_house"
+						country="c:LIE"
+						levels=2
+						region="STATE_AUSTRIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
+			}
+		}
 		region_state:LOM={
 			create_building={
 				building="building_government_administration"

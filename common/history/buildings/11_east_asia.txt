@@ -1,7 +1,7 @@
 ﻿BUILDINGS={
 	s:STATE_DZUNGARIA={
-		
-	
+
+
 		region_state:XIN={
 			create_building={
 				building="building_livestock_ranch"
@@ -19,8 +19,8 @@
 		}
 	}
 	s:STATE_TIANSHAN={
-		
-	
+
+
 		region_state:XIN={
 			create_building={
 				building="building_livestock_ranch"
@@ -315,8 +315,8 @@
 		}
 	}
 	s:STATE_ALXA={
-		
-	
+
+
 		region_state:IMG={
 			create_building={
 				building="building_livestock_ranch"
@@ -362,7 +362,7 @@
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 		}
-	
+
 		region_state:IMG={
 			create_building={
 				building="building_livestock_ranch"
@@ -772,8 +772,8 @@
 		}
 	}
 	s:STATE_QINGHAI={
-		
-	
+
+
 		region_state:QIN={
 			create_building={
 				building="building_livestock_ranch"
@@ -2000,8 +2000,8 @@
 		}
 	}
 	s:STATE_ULIASTAI={
-		
-	
+
+
 		region_state:OMG={
 			create_building={
 				building="building_livestock_ranch"
@@ -2019,8 +2019,8 @@
 		}
 	}
 	s:STATE_URGA={
-		
-	
+
+
 		region_state:OMG={
 			create_building={
 				building="building_livestock_ranch"
@@ -2120,7 +2120,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-	
+
 		region_state:KLO={
 			create_building={
 				building="building_tea_plantation"
@@ -2294,7 +2294,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-	
+
 		region_state:SCT={
 			create_building={
 				building="building_government_administration"
@@ -2475,7 +2475,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-	
+
 		region_state:DGR={
 			create_building={
 				building="building_trade_center"
@@ -2606,7 +2606,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-	
+
 		region_state:DAI={
 			create_building={
 				building="building_opium_plantation"
@@ -2816,8 +2816,8 @@
 		}
 	}
 	s:STATE_SHAN_STATES={
-		
-	
+
+
 		region_state:SHS={
 			create_building={
 				building="building_opium_plantation"
@@ -2887,7 +2887,7 @@
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 		}
-	
+
 		region_state:KKI={
 			create_building={
 				building="building_government_administration"
@@ -2983,7 +2983,7 @@
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
 		}
-	
+
 		region_state:BIC={
 			create_building={
 				building="building_rice_farm"
@@ -3083,7 +3083,7 @@
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
 			}
 		}
-	
+
 		region_state:KKI={
 			create_building={
 				building="building_opium_plantation"
@@ -3329,21 +3329,10 @@
 			}
 		}
 	}
-	s:STATE_CHUBU={
+	s:STATE_HOKUSHINETSU={
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:JAP"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
-			}
-			create_building={
-				building="building_construction_sector"
 				add_ownership={
 					country={
 						country="c:JAP"
@@ -3351,20 +3340,20 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
-				building="building_paper_mill"
+				building="building_glassworks"
 				add_ownership={
 					building={
-						type="building_paper_mill"
+						type="building_glassworks"
 						country="c:JAP"
-						levels=2
-						region="STATE_CHUBU"
+						levels=1
+						region="STATE_HOKUSHINETSU"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
+				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing"  }
 			}
 			create_building={
 				building="building_furniture_manufactory"
@@ -3372,12 +3361,23 @@
 					building={
 						type="building_furniture_manufactory"
 						country="c:JAP"
-						levels=2
-						region="STATE_CHUBU"
+						levels=1
+						region="STATE_HOKUSHINETSU"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture"  "pm_automation_disabled" "pm_luxury_furniture" }
+			}
+			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3385,21 +3385,153 @@
 					building={
 						type="building_logging_camp"
 						country="c:JAP"
-						levels=4
-						region="STATE_CHUBU"
+						levels=2
+						region="STATE_HOKUSHINETSU"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_hardwood" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_tobacco_plantation"
+				add_ownership={
+					building={
+						type="building_tobacco_plantation"
+						country="c:JAP"
+						levels=2
+						region="STATE_HOKUSHINETSU"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:JAP"
+						levels=4
+						region="STATE_HOKUSHINETSU"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_herring_meal_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:JAP"
+						levels=1
+						region="STATE_HOKUSHINETSU"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
+		}
+	}
+	s:STATE_KYOTO={
+		region_state:JAP={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=4
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_glassworks"
+				add_ownership={
+					building={
+						type="building_glassworks"
+						country="c:JAP"
+						levels=1
+						region="STATE_KYOTO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing"  }
+			}
+			create_building={
+				building="building_furniture_manufactory"
+				add_ownership={
+					building={
+						type="building_furniture_manufactory"
+						country="c:JAP"
+						levels=1
+						region="STATE_KYOTO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture"  "pm_automation_disabled" "pm_luxury_furniture" }
+			}
+			create_building={# Sake and Soy industries
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:JAP"
+						levels=1
+						region="STATE_KANSAI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_disabled_distillery" "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing"  }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:JAP"
+						levels=2
+						region="STATE_KYOTO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
+			}
+			create_building={ # Nishijin
+				building="building_silk_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:JAP"
+						levels=1
+						region="STATE_KYOTO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:JAP"
+						levels=1
+						region="STATE_KYOTO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_hardwood" "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:JAP"
+						country="c:SWE"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_GOTALAND"
 					}
 				}
 				reserves=1
@@ -3411,25 +3543,66 @@
 					building={
 						type="building_manor_house"
 						country="c:JAP"
-						levels=2
-						region="STATE_CHUBU"
+						levels=1
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
+				activate_production_methods={ "pm_herring_meal_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
+			}
+		}
+	}
+	s:STATE_TOKAI={
+		region_state:JAP={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:JAP"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
-				building="building_tobacco_plantation"
+				building="building_glassworks"
+				add_ownership={
+					building={
+						type="building_glassworks"
+						country="c:JAP"
+						levels=1
+						region="STATE_TOKAI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing"  }
+			}
+			create_building={# Sake and Soy industries
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:JAP"
+						levels=1
+						region="STATE_TOKAI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_disabled_distillery" "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing"  }
+			}
+			create_building={
+				building="building_cotton_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
 						country="c:JAP"
-						levels=2
-						region="STATE_CHUBU"
+						levels=1
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -3437,23 +3610,38 @@
 					building={
 						type="building_manor_house"
 						country="c:JAP"
-						levels=4
-						region="STATE_CHUBU"
+						levels=9
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_barrack"
+				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
+						type="building_logging_camp"
 						country="c:JAP"
-						levels=15
+						levels=3
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				activate_production_methods={ "pm_no_hardwood" "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:JAP"
+						levels=2
+						region="STATE_TOKAI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_herring_meal_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
 			}
 		}
 	}

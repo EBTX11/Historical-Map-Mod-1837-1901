@@ -122,7 +122,7 @@ STATE_ERITREA = {
         building_iron_mine = 15
         building_fishing_wharf = 5
     }
-    naval_exit_id = 3047
+    naval_exit_id = 3073
 }
 
 STATE_DONGOLA = {
@@ -371,7 +371,7 @@ STATE_TUNISIA = {
         building_logging_camp = 9
         building_fishing_wharf = 7
     }
-    naval_exit_id = 3032
+    naval_exit_id = 3033
 }
 
 STATE_TRIPOLI = {
