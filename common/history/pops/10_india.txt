@@ -1,6 +1,12 @@
 ﻿
 POPS = {
 	s:STATE_BIHAR = {
+		region_state:BHW = {
+			create_pop = {
+				culture = bihari
+				size = 996968
+			}
+		}
 		region_state:BIC = {
 			create_pop = {
 				culture = bihari

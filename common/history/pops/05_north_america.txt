@@ -2168,6 +2168,12 @@
 				size = 6000
 			}
 		}
+		region_state:UTE = {
+			create_pop = {
+				culture = paiute
+				size = 6000
+			}
+		}
 	}
 	s:STATE_ARIZONA = {
 		region_state:MEX = {

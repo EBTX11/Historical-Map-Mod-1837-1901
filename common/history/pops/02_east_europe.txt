@@ -179,6 +179,17 @@
 		}
 	}
 	s:STATE_LOWER_SILESIA = {
+		region_state:SAX = {
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 2519
+			}
+			create_pop = {
+				culture = north_german
+				size = 14275
+			}
+		}
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
