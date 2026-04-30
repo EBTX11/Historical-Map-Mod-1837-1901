@@ -3101,39 +3101,17 @@
 		}
 	}
 	s:STATE_SAKHALIN={
+		region_state:EZO={
+		}
+		region_state:RUS={
+		}
 		region_state:SKH={
 		}
 	}
 	s:STATE_HOKKAIDO={
-		region_state:AIN={
+		region_state:EZO={
 		}
 		region_state:JAP={
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:JAP"
-						levels=1
-						region="STATE_HOKKAIDO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:JAP"
-						levels=1
-						region="STATE_HOKKAIDO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
 		}
 	}
 	s:STATE_TOHOKU={
