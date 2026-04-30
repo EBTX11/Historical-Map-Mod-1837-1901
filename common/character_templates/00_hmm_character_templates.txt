@@ -1,65 +1,13 @@
-﻿hohenzollern_character_template = {
-    first_name = friedrich_wilhelm 
-    last_name = von_hohenzollern
-    historical = yes
-    culture = primary_culture #cu:north_german
-    female = no
-    birth_date = 1859.01.27
-}
-  
-belgique_character_template = {
-    first_name = léopold
-    last_name = de_belgique
-    historical = yes
-    culture = primary_culture #cu:
-    female = no
-    birth_date = 1835.04.06
-}
+# 1804 -> 17 personnage custom
+# 1837 -> 2 personnage vanilla only
+# 1861 -> 12 personnages vanilla only
+# 1871 -> 13 vanilla + 6 custom
+# 1890 -> 10 vanilla + 5 custom
+# 1919 -> 6 custom
 
-carnot_character_template = {
-    first_name = sadi
-    last_name = carnot
-    historical = yes
-    culture = primary_culture #cu:
-    female = no
-    birth_date = 1837.08.11
-}
-
-romanov_character_template = {
-    first_name = aleksandr
-    last_name = romanov
-    historical = yes
-    culture = primary_culture #cu:
-    female = no
-    birth_date = 1845.03.10
-}
-
-harrison_character_template = {
-    first_name = benjamin
-    last_name = harrison
-    historical = yes
-    culture = primary_culture #cu:
-    female = no
-    birth_date = 1833.08.20
-}
-
-savoia_character_template = {
-    first_name = umberto
-    last_name = savoia
-    historical = yes
-    culture = primary_culture #cu:
-    female = no
-    birth_date = 1844.03.14
-}
-
-nassau_character_template = {
-    first_name = wilhelmina
-    last_name = oranje_nassau
-    historical = yes
-    culture = primary_culture #cu:
-    female = no
-    birth_date = 1870.08.31
-}
+# ==============================
+# 1804 - 1814
+# ==============================
 
 bonaparte_character_template = {
     first_name = napoléon
@@ -107,6 +55,16 @@ hanover_character_template = {
     birth_date = 1762.08.12
 }
 
+romanov_1_character_template = {
+    first_name = alexander
+    last_name = romanov
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1777.12.23
+	dna = dna_rus_nikolai_01
+}
+
 habsburg_lorraine_character_template = {
     first_name = francis
     last_name = habsburg_lorraine
@@ -116,22 +74,14 @@ habsburg_lorraine_character_template = {
     birth_date = 1768.02.12
 }
 
-romanov_1_character_template = {
-    first_name = alexander
-    last_name = romanov
-    historical = yes
-    culture = primary_culture #cu:
-    female = no
-    birth_date = 1777.12.23
-}
-
-hohenzollern_character_template = {
+hohenzollern_1_character_template = {
     first_name = frederick_william
     last_name = hohenzollern
     historical = yes
     culture = primary_culture #cu:
     female = no
     birth_date = 1770.08.03
+	dna = dna_king_frederik_william_03
 }
 
 bourbon_character_template = {
@@ -141,6 +91,16 @@ bourbon_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1784.10.14
+	dna = dna_sic_ferdinando_02
+}
+
+bourbon_character_template = {
+    first_name = ferdinand
+    last_name = bourbon
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1751.01.12
 }
 
 braganza_character_template = {
@@ -168,15 +128,7 @@ wittelsbach_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1756.05.27
-}
-
-bourbon_character_template = {
-    first_name = ferdinand
-    last_name = bourbon
-    historical = yes
-    culture = primary_culture #cu:
-    female = no
-    birth_date = 1751.01.12
+	dna = dna_bav_ludwig_01
 }
 
 chiaramonti_character_template = {
@@ -204,6 +156,7 @@ aisin_gioro_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1760.11.13
+    dna = dna_chi_daoguang
 }
 
 tokugawa_character_template = {
@@ -213,6 +166,7 @@ tokugawa_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1773.11.18
+    dna = dna_jap_tokugawa_ienari
 }
 
 osmanoglu_character_template = {
@@ -222,6 +176,7 @@ osmanoglu_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1761.12.24
+    dna = dna_mahmud_02
 }
 
 bourbon_parma_character_template = {
@@ -232,3 +187,186 @@ bourbon_parma_character_template = {
     female = no
     birth_date = 1773.08.05
 }
+
+# ==============================
+# 1871 - 1900 ok
+# ==============================
+
+hohenzollern_2_character_template = { #Wilhelm Ier
+    first_name = wilhelm
+    last_name = hohenzollern
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1797.03.22
+	dna = dna_pru_wilhelm_01
+}
+
+savoy_character_template = {
+    first_name = amadeo
+    last_name = savoy
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+	dna = dna_sar_umberto_01 #frere
+    birth_date = 1845.05.30
+}
+
+gioro_character_template = {
+    first_name = zaichun
+    last_name = Aisin-Gioro
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1856.04.27
+    dna = dna_chi_tongzhi
+}
+
+glucksburg_character_template = {
+    first_name = christian
+    last_name = glucksburg
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1818.04.08
+    dna = dna_den_christian_09
+}
+ 
+glucksburg_georgios_character_template = {
+    first_name = georgios
+    last_name = glucksburg
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1845.12.24
+    dna = dna_den_frederik_09 #frere
+}
+
+# ==============================
+# 1890 - 1914
+# ==============================
+
+hohenzollern_3_character_template = { #Wilhelm II
+    first_name = friedrich_wilhelm
+    last_name = von_hohenzollern
+    historical = yes
+    culture = primary_culture #cu:north_german
+    female = no
+    birth_date = 1859.01.27
+	dna = dna_pru_wilhelm_02
+} 
+
+carnot_character_template = { #pas de templete
+    first_name = sadi
+    last_name = carnot
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1837.08.11
+} 
+
+harrison_character_template = { #pas de templete
+    first_name = benjamin
+    last_name = harrison
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1833.08.20
+	dna = ecchi_dna_benjamin_harrison
+}
+
+savoia_character_template = {
+    first_name = umberto
+    last_name = savoia
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1844.03.14
+	dna = dna_sar_umberto_01
+}
+
+nassau_character_template = {
+    first_name = wilhelmina
+    last_name = oranje_nassau
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1870.08.31
+	dna = dna_net_wilhelmina_01
+}
+
+# ==============================
+# 1919 - 1939
+# ==============================
+ 
+# windsor_character_template = { #gbr_george_v_template
+#     first_name = george
+#     last_name = windsor
+#     historical = yes
+#     culture = primary_culture #cu:
+#     female = no
+#     birth_date = 1865.06.03
+# }
+ 
+hitler_character_template = {
+    first_name = adolf
+    last_name = hitler
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1889.04.20
+	dna = ecchi_dna_adolf_hitler
+}
+
+roosevelt_character_template = {
+    first_name = franklin
+    last_name = roosevelt
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1882.01.30
+	dna = ecchi_dna_franklin_roosevelt
+}
+
+stalin_character_template = {
+    first_name = joseph
+    last_name = stalin
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1878.12.18 
+	dna = ecchi_dna_joseph_stalin
+}
+
+gotha_character_template = { #leopold 3
+    first_name = leopold
+    last_name = van_saxe_coburg_gotha
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1895.11.03
+	dna = dna_bel_leopold_03
+}
+
+ataturk_character_template = {
+    first_name = mustafa_kemal
+    last_name = ataturk
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1881.05.19
+	dna = ecchi_dna_mustafa_kemal_ataturk
+}
+
+lebrun_character_template = {
+    first_name = albert
+    last_name = lebrun
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1871.08.29
+}
+ 
+# ==============================
+# Divers à trier
+# ==============================
