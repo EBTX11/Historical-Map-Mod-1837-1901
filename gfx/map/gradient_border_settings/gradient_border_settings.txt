@@ -55,13 +55,13 @@ default = {
 		before_lighting_blend =		1
 		after_lighting_blend =		0
 	}
-
+ 
 	gradient_parameters = {
 		zoom_step = @zoom_step_flatmap
 
-		gradient_alpha_inside = 	5
+		gradient_alpha_inside = 	0.8
 		gradient_alpha_outside = 	1
-		gradient_width = 			0
+		gradient_width = 			15
 		gradient_color_mult =		1
 		edge_width = 				0.03
 		edge_sharpness = 			0.005
@@ -89,7 +89,7 @@ default = {
 
 # States view gradient
 states = {
-gradient_water_borders_zoom = @zoom_step_flatmap
+	gradient_water_borders_zoom = @zoom_step_flatmap
 
 	gradient_parameters = {
 		zoom_step = @zoom_step_ultra_near
@@ -170,7 +170,7 @@ gradient_water_borders_zoom = @zoom_step_flatmap
 # Heat maps, show "spread" etc, uses the alpha from the actual color to indicate strength of "spread"
 # Tweak the values in here to tweak the look of this map mode.
 heatmap = {
-	gradient_water_borders_zoom = @zoom_step_flatmap
+	gradient_water_borders_zoom = @zoom_step_flatmap 
 
 	gradient_parameters = {
 		zoom_step = @zoom_step_flatmap
@@ -182,7 +182,7 @@ heatmap = {
 		edge_width = 				0.03
 		edge_sharpness = 			0
 		edge_alpha = 				1
-		edge_color_mult = 			0.7
+		edge_color_mult = 			0.8
 		before_lighting_blend =		0
 		after_lighting_blend =		1
 	}
@@ -302,6 +302,25 @@ mapmode_extra = {
 		edge_alpha = 				1
 		edge_color_mult = 			0.7
 		before_lighting_blend =		1
+		after_lighting_blend =		1
+	}
+}
+
+powerbloc = {
+	gradient_water_borders_zoom = @zoom_step_flatmap
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_flatmap
+
+		gradient_alpha_inside = 	1.0
+		gradient_alpha_outside = 	0.75
+		gradient_width = 			0.8
+		gradient_color_mult =		1.0
+		edge_width = 				0.03
+		edge_sharpness = 			0.01
+		edge_alpha = 				1
+		edge_color_mult = 			0.5
+		before_lighting_blend =		0
 		after_lighting_blend =		1
 	}
 }

@@ -1,0 +1,8 @@
+"Flatmap" = "flatmap_hmm_tggm.dds" #ocean 
+"FlatmapOverlay" = "flatmap_overlay_hmm.dds" #continant  
+"ImpassableTerrain" = "impassableterrain.dds"
+"EdgeOfWorldClouds" = "edgeofworld_clouds.dds"
+"ColormapTree" = "colormap_tree.dds"
+"WindmapTree" = "windmap_tree.dds"
+"SolLowTexture" = "bronze_diff.dds"
+"PapermapCubemap" = "tavern.dds" 
